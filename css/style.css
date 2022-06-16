@@ -1,0 +1,485 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #203846;
+    background: #e6e6e6;
+    width: 100%;
+}
+
+/* Alert Success */
+
+.alert-success {
+    z-index: 1;
+    font-size: 18px;
+    padding: 20px 40px;
+    min-width: 200px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    border-left: 8px solid #25c95c;
+}
+
+.alert-danger {
+    z-index: 1;
+    font-size: 18px;
+    padding: 20px 40px;
+    min-width: 200px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    border-left: 8px solid #c92525;
+}
+
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -999;
+    background: linear-gradient(90deg, #e6ecef 100%, #e5eff6 100%);
+}
+
+nav .navbar-nav a {
+    font-size: 20px;
+    margin: auto;
+    padding: 1.5em 2em;
+    color: #203846;
+    transition: all 0.3s;
+}
+
+nav .navbar-nav a:hover {
+    color: #203846;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 500;
+}
+
+hr {
+    width: 50%;
+    color: none;
+    border: 2px solid #007ec3;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 175.2%;
+}
+
+/* Header */
+
+.header {
+    margin-top: 80px;
+}
+
+.header h3 {
+    font-size: 32px;
+    margin-top: 16px;
+    font-weight: 400;
+}
+
+.header a button {
+    font-size: 24px;
+    outline: none;
+    border: none;
+    background-color: #007ec3;
+    color: #ffffff;
+    margin-top: 48px;
+    padding: 16px 64px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 16px rgba(0, 126, 195, 0.25);
+    transition: all 0.4s;
+}
+
+.header a button:hover,
+.experience a button:hover,
+.portfolio a button:hover,
+.bog a button:hover,
+.contact button:hover {
+    color: #007ec3;
+    border: 2px solid #007ec3;
+    background: none;
+}
+
+.header img {
+    width: 100%;
+    margin-top: -2em;
+}
+
+@keyframes headerImg {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-40px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/* About Me */
+
+.about {
+    margin-top: 120px;
+}
+
+.about img {
+    width: 100%;
+}
+
+.about p {
+    margin-top: 32px;
+}
+
+/* Experience */
+
+.experience {
+    margin-top: 120px;
+}
+
+.experience hr {
+    margin: auto;
+    width: 40%;
+}
+
+.experience h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.experience h5 {
+    font-size: 20px;
+    color: #6d828e;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+.experience a button,
+.portfolio a button,
+.blog a button,
+.contact button {
+    font-size: 24px;
+    outline: none;
+    border: none;
+    background-color: #007ec3;
+    color: #ffffff;
+    padding: 16px 64px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 16px rgba(0, 126, 195, 0.25);
+    transition: all 0.4s;
+}
+
+/* Portfolio */
+
+.portfolio {
+    margin-top: 120px;
+}
+
+.portfolio hr {
+    margin: auto;
+    width: 30%;
+}
+
+.portfolio h3 {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.portfolio p {
+    font-size: 18px;
+    color: #6d828e;
+}
+
+.portfolio .card {
+    border-radius: 12px;
+    transition: all 0.2s;
+}
+
+.portfolio .card:hover {
+    box-shadow: 0px 45px 295px 9px rgba(0, 126, 195, 0.06), 0px 26.496px 153.872px 9px rgba(0, 126, 195, 0.043392), 0px 13.608px 72.216px 9px rgba(0, 126, 195, 0.033696), 0px 5.472px 31.624px 9px rgba(0, 126, 195, 0.026304), 0px 1.224px 13.688px 9px rgba(0, 126, 195, 0.016608);
+    cursor: pointer;
+    transform: translateY(-8px);
+}
+
+/* Team */
+
+.team {
+    margin-top: 120px;
+}
+
+/* Blog */
+
+.blog {
+    margin-top: 120px;
+}
+
+.blog hr {
+    margin: auto;
+    width: 30%;
+}
+
+.blog button {
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background-color: #007ec3;
+    color: #ffffff;
+    padding: 12px 56px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 16px rgba(0, 126, 195, 0.25);
+    transition: all 0.4s;
+}
+
+/* Contact */
+
+.contact {
+    margin-top: 120px;
+}
+
+.contact hr {
+    width: 76%;
+}
+
+.contact button {
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background-color: #007ec3;
+    color: #ffffff;
+    padding: 12px 56px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 16px rgba(0, 126, 195, 0.25);
+    transition: all 0.4s;
+}
+
+.contact img {
+    width: 100%;
+}
+
+/* Footer */
+
+footer {
+    position: relative;
+    clear: both;
+    margin-top: 160px;
+    height: 100%;
+}
+
+footer img {
+    transition: all 0.2s;
+}
+
+footer img:hover {
+    transform: translateY(-8px);
+    color: #007ec3;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a img {
+    margin-top: 64px;
+}
+
+/* Back to top */
+
+.to-top {
+    background: #007ec3;
+    color: #ffffff;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s;
+}
+
+.to-top:hover {
+    color: #007ec3;
+    background: #ffffff;
+}
+
+.to-top.active {
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+}
+
+/* Desktop View */
+
+@media (min-width: 992px) {
+    nav .navbar-nav a {
+        margin: 0 1em;
+        transition: all 0.3s;
+    }
+    nav .navbar-nav a:hover::after {
+        content: "";
+        display: block;
+        border-bottom: 2.5px solid #007ec3;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -7.5px;
+    }
+    .about h1 {
+        margin-top: 36px;
+    }
+    .contact img {
+        margin-top: -10em;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (max-width: 991.98px) {
+    nav .navbar-nav a:hover {
+        color: #203846;
+        font-weight: 500;
+    }
+    h1 {
+        font-size: 48px;
+    }
+    p {
+        font-size: 16px;
+    }
+    /* Header */
+    .header {
+        margin-top: 60px;
+    }
+    .header h1 {
+        margin-top: 24px;
+    }
+    .header h3 {
+        font-size: 24px;
+    }
+    .header a button {
+        margin-top: 24px;
+        font-size: 16px;
+        padding: 12px 56px;
+    }
+    .header img {
+        margin-top: 0em;
+    }
+    /* About */
+    .about img {
+        margin-top: 3em;
+    }
+}
+
+/* Small devices (Phone) */
+
+@media (max-width: 767.98px) {
+    h1 {
+        font-size: 48px;
+    }
+    p {
+        font-size: 16px;
+    }
+    /* Header */
+    .header {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .header h3 {
+        font-size: 24px;
+    }
+    .header a button {
+        margin-top: 24px;
+        font-size: 16px;
+        padding: 12px 56px;
+    }
+    .header img {
+        width: 70%;
+        margin-top: 3.2em;
+    }
+    /* About */
+    .about {
+        margin-top: 64px;
+        text-align: center;
+    }
+    .about hr {
+        margin: auto;
+        width: 60%;
+    }
+    .about img {
+        width: 50%;
+    }
+    .about h1 {
+        margin-top: 24px;
+    }
+    .about p {
+        text-align: left;
+    }
+    /* Experience */
+    .experience,
+    .portfolio,
+    .team,
+    .contact {
+        margin-top: 80px;
+    }
+    .experience img {
+        margin: auto;
+    }
+    .experience hr {
+        width: 60%;
+    }
+    .experience h3 {
+        font-size: 22px;
+        margin-top: 16px;
+    }
+    .experience h5 {
+        font-size: 18px;
+    }
+    .experience a button,
+    .portfolio a button,
+    .blog a button,
+    .contact button {
+        font-size: 16px;
+        padding: 12px 56px;
+    }
+    /* Portfolio */
+    .portfolio h3 {
+        font-size: 20px;
+    }
+    .portfolio p {
+        font-size: 16px;
+    }
+    .portfolio hr {
+        width: 50%;
+    }
+    .portfolio .card {
+        margin-top: 24px;
+    }
+    .portfolio .card.pertama {
+        margin-top: 8px;
+    }
+    /* Contact */
+    .contact img {
+        display: none;
+    }
+    .contact hr {
+        width: 60%;
+    }
+    .contact p {
+        margin-top: 8px;
+    }
+    footer a img {
+        margin-top: 32px;
+    }
+}
